@@ -1,0 +1,15 @@
+- name: my dev machine
+  hosts: all
+  tasks:
+  - git:
+      repo: https://github.com/gkuga/dotfiles.git
+      dest: $HOME/dotfiles
+  - include_role:
+      name: common
+  - include_role:
+      name: rbenv
+  - include_role:
+      name: goenv
+  - include_role:
+      name: neovim
+
