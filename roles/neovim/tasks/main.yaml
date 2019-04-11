@@ -1,10 +1,6 @@
-- become: yes
-  yum:
-    state: present
-    name:
-      - https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-- become: yes
-  yum:
-    state: present
-    name:
-      - neovim
+- name: Install neovim
+  become: yes
+  get_url:
+    url: https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+    dest: /usr/local/bin/nvim
+    mode: 0755
