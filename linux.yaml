@@ -12,4 +12,6 @@
       name: goenv
   - include_role:
       name: neovim
+  - include_role:
+      name: bazel
 
