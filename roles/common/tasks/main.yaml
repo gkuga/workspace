@@ -6,5 +6,4 @@
   yum:
     state: present
     name:
-      - git
       - screen

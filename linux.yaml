@@ -1,9 +1,8 @@
 - name: my dev machine
   hosts: all
   tasks:
-  - git:
-      repo: https://github.com/gkuga/dotfiles.git
-      dest: $HOME/dotfiles
+  - include_role:
+      name: git
   - include_role:
       name: common
   - include_role:
