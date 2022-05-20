@@ -1,0 +1,11 @@
+- name: Setup development environment
+  hosts: localhost
+  vars:
+    should_be_root:  "{{ false if ansible_pkg_mgr == 'brew' else true }}"
+  tasks:
+  - ansible.builtin.ping:
+  roles:
+  - common
+  - asdf
+  - tmux
+
