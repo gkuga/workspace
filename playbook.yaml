@@ -6,6 +6,12 @@
   - ansible.builtin.ping:
   roles:
   - common
-  - asdf
+  - role: cimon-io.asdf
+    asdf_version: v0.10.0
+    asdf_user: opc
+    asdf_plugins:
+      - name: nodejs
+      - name: golang
+        versions: ["1.18.2"]
+        global: "1.18.2"
   - tmux
-
