@@ -907,6 +907,12 @@
         "options": {
           "full_name": "todoist"
         }
+      },
+      "notion": {
+        "version": "2.0.21",
+        "options": {
+          "full_name": "notion"
+        }
       }
     },
     "mas": {
@@ -929,7 +935,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.11",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "4a2b95de5d06024acc9ce1c6ce93ebf7c0a6140d",
+        "Homebrew/homebrew-core": "b97982795d63766d69db31d9fc7a6b3336c024aa",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.3",
         "macOS": "12.2.1"
