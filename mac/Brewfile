@@ -13,6 +13,7 @@ brew 'vim'
 brew 'wget'
 brew 'wireshark'
 brew 'bash-completion'
+brew 'zsh-completions'
 brew 'pkg-config'
 
 cask 'docker'
