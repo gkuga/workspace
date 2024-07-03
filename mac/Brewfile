@@ -12,6 +12,8 @@ brew 'tree'
 brew 'vim'
 brew 'wget'
 brew 'wireshark'
+brew 'bash-completion'
+brew 'pkg-config'
 
 cask 'docker'
 cask 'evernote'
