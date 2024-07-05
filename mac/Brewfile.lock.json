@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "3ec4565e3785efcbf6bd767560b1d767bfa43b72"
+        "revision": "c40173f53f56c1bf8d7b6d22d542c54fa985682d"
       }
     },
     "brew": {
@@ -792,7 +792,7 @@
         }
       },
       "todoist": {
-        "version": "9.6.3",
+        "version": "9.7.0",
         "options": {
           "full_name": "todoist"
         }
@@ -814,6 +814,12 @@
         "options": {
           "full_name": "bitwarden"
         }
+      },
+      "kindle": {
+        "version": "1.40.65626",
+        "options": {
+          "full_name": "kindle"
+        }
       }
     }
   },
@@ -823,7 +829,7 @@
         "HOMEBREW_VERSION": "4.3.8",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
-        "CLT": "15.1.0.0.1.1700200546",
+        "CLT": "15.3.0.0.1.1708646388",
         "Xcode": "15.4",
         "macOS": "14.5"
       }
